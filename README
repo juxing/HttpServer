@@ -1,0 +1,5 @@
+a) Ming Zhang
+b) All problems are solved
+
+Usage:
+1. When start http server from current directory, www is rootdir, www/mod is moddir, http server will generate ihttpd.log under current directory.

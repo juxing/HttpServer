@@ -1,0 +1,37 @@
+Invalid opts.
+Invalid port.
+Usage:	./ihttpd [-r|--rootdir] rootdir [-m|--moddir] moddir
+	[-p|--port] port [-l|--logfile] logfile
+	[-c|--config] config [-h|--help]
+Failed to open config file.
+Invalid opts.
+
+Eexcuting: ./mzihttpd -c
+
+
+
+Return value: 256 (Unknown error 256)
+
+Eexcuting: ./mzihttpd --port abc
+
+
+
+Return value: 256 (Unknown error 256)
+
+Eexcuting: ./mzihttpd -h
+
+
+
+Return value: 0 (Success)
+
+Eexcuting: ./mzihttpd --config notexist
+
+
+
+Return value: 256 (Unknown error 256)
+
+Eexcuting: ./mzihttpd -w
+
+
+
+Return value: 256 (Unknown error 256)
